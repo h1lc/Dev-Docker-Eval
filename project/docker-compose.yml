@@ -20,8 +20,7 @@ services:
     environment:
       PORT: ${API_PORT}
       NODE_ENV: ${NODE_ENV}
-      # Volontairement faux : ne doit pas être localhost en Docker
-      DATABASE_URL: postgres://${POSTGRES_USER}:${POSTGRES_PASSWORD}@localhost:5432/${POSTGRES_DB}
+      DATABASE_URL: postgres://${POSTGRES_USER}:${POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB}
     ports:
       - "3000:3000"
     depends_on:
