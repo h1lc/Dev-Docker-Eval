@@ -208,8 +208,8 @@ Les variables d'environnement référencées dans docker-compose.yml ne sont pas
 - L'application peut ne pas démarrer correctement
 
 ### Impact
-- ❌ Services peuvent ne pas démarrer avec les bonnes valeurs
-- ❌ Configuration non reproductible
+- Services peuvent ne pas démarrer avec les bonnes valeurs
+-  Configuration non reproductible
 
 ---
 
